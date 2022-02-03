@@ -1,0 +1,51 @@
+{
+  "lang":"en",
+  "name":"pipeline",
+  "version":"0.0.0",
+  "spacy_version":">=3.0.6,<3.1.0",
+  "description":"",
+  "author":"",
+  "email":"",
+  "url":"",
+  "license":"",
+  "spacy_git_version":"df3444421",
+  "vectors":{
+    "width":0,
+    "vectors":0,
+    "keys":0,
+    "name":null
+  },
+  "labels":{
+    "tok2vec":[
+
+    ],
+    "ner":[
+      "Legal Doc"
+    ]
+  },
+  "pipeline":[
+    "tok2vec",
+    "ner"
+  ],
+  "components":[
+    "tok2vec",
+    "ner"
+  ],
+  "disabled":[
+
+  ],
+  "performance":{
+    "ents_per_type":{
+      "Legal Doc":{
+        "p":0.954887218,
+        "r":0.984496124,
+        "f":0.9694656489
+      }
+    },
+    "ents_f":0.9694656489,
+    "ents_p":0.954887218,
+    "ents_r":0.984496124,
+    "tok2vec_loss":621.3186476389,
+    "ner_loss":83.9130450213
+  }
+}
